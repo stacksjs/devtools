@@ -23,7 +23,7 @@
     "@unocss/preset-uno": "^66.1.0-beta.13",
     "@unocss/preset-web-fonts": "^66.1.0-beta.13",
     "@unocss/transformer-directives": "^66.1.0-beta.13",
-    "@vitejs/plugin-vue": "^5.2.3",
+    "@vitejs/plugin-vue": "^6.0.4",
     "unocss": "^66.1.0-beta.13",
     "vite": "^6.3.4",
     "vue-tsc": "^2.2.10"
