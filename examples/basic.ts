@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { Queue } from '../packages/requests/src'
 
 // Define job data type
@@ -27,7 +28,7 @@ async function main() {
 
   // Process jobs with concurrency of 2
   emailQueue.process(2, async (job) => {
-    const { to, subject, body } = job.data
+    const { to, _subject, _body } = job.data
 
     console.log(`Processing email to ${to}`)
 

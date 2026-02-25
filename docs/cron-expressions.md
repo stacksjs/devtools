@@ -6,7 +6,7 @@
 
 A cron expression consists of five fields that specify when a job should run:
 
-```
+```text
 ┌───────────── minute (0 - 59)
 │ ┌───────────── hour (0 - 23)
 │ │ ┌───────────── day of month (1 - 31)
