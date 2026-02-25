@@ -1,5 +1,5 @@
 {
-  "name": "@stacksjs/requests",
+  "name": "@stacksjs/errors",
   "type": "module",
   "version": "0.0.0",
   "private": true,
