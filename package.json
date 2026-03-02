@@ -90,7 +90,7 @@
     "unconfig": "0.3.10"
   },
   "lint-staged": {
-    "*.{js,ts}": "bunx --bun eslint . --fix"
+    "*.{js,ts}": "bunx --bun pickier lint --fix"
   },
   "workspaces": [
     "packages/*"
