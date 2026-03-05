@@ -56,6 +56,8 @@
     "zip:darwin-arm64": "zip -j bin/bin-name-darwin-arm64.zip bin/bin-name-darwin-arm64",
     "lint": "bunx --bun pickier .",
     "lint:fix": "bunx --bun pickier . --fix",
+    "format": "bunx --bun pickier . --format",
+    "format:fix": "bunx --bun pickier . --format --write",
     "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
     "changelog": "bunx changelogen --output CHANGELOG.md",
     "prepublishOnly": "bun --bun run build && bun run compile:all && bun run zip",
