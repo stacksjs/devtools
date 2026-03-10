@@ -74,7 +74,8 @@
     "example:key-rate-limiting": "bun examples/key-rate-limiting.ts",
     "example:distributed-locks": "bun examples/distributed-locks.ts",
     "example:cron-jobs": "bun examples/cron-jobs.ts",
-    "example:dead-letter-queue": "bun examples/dead-letter-queue.ts"
+    "example:dead-letter-queue": "bun examples/dead-letter-queue.ts",
+    "postinstall": "bunx git-hooks"
   },
   "devDependencies": {
     "@stacksjs/docs": "^0.70.23",
@@ -83,16 +84,20 @@
     "bun-plugin-dtsx": "^0.21.9",
     "bunfig": "^0.8.4",
     "changelogen": "^0.6.1",
-    "lint-staged": "^15.5.1",
-    "simple-git-hooks": "^2.13.0",
+    "bun-git-hooks": "^0.3.1",
     "typescript": "^5.8.3",
     "pickier": "latest"
   },
   "overrides": {
     "unconfig": "0.3.10"
   },
-  "lint-staged": {
-    "*.{js,ts}": "bunx --bun pickier lint --fix"
+  "git-hooks": {
+    "pre-commit": {
+      "staged-lint": {
+        "*.{js,ts,json,yaml,yml,md}": "bunx --bun pickier lint --fix"
+      }
+    },
+    "commit-msg": "bunx gitlint --edit .git/COMMIT_EDITMSG"
   },
   "workspaces": [
     "packages/*"
