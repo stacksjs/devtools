@@ -78,7 +78,6 @@
     "postinstall": "bunx git-hooks"
   },
   "devDependencies": {
-    "@stacksjs/docs": "^0.70.23",
     "bumpp": "^10.1.0",
     "changelogen": "^0.6.1",
     "typescript": "^5.8.3",
