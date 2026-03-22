@@ -10,3 +10,5 @@ storage/logs
 node_modules
 temp
 docs/.vitepress/cache
+.zed
+.cursor
