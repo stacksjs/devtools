@@ -78,7 +78,7 @@
     "postinstall": "bunx git-hooks"
   },
   "devDependencies": {
-    "bumpp": "^10.1.0",
+    "bumpp": "^11.0.1",
     "changelogen": "^0.6.1",
     "typescript": "^5.8.3",
     "better-dx": "^0.2.7"
