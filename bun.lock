@@ -17,7 +17,7 @@
       "dependencies": {
         "axios": "^1.9.0",
         "d3": "7.9.0",
-        "pinia": "^3.0.2",
+        "pinia": "^4.0.3",
         "vue": "^3.5.13",
         "vue-router": "^4.5.1",
       },
@@ -35,7 +35,7 @@
       "dependencies": {
         "axios": "^1.9.0",
         "d3": "7.9.0",
-        "pinia": "^3.0.2",
+        "pinia": "^4.0.3",
         "vue": "^3.5.13",
         "vue-router": "^4.5.1",
       },
@@ -53,7 +53,7 @@
       "dependencies": {
         "axios": "^1.9.0",
         "d3": "7.9.0",
-        "pinia": "^3.0.2",
+        "pinia": "^4.0.3",
         "vue": "^3.5.13",
         "vue-router": "^4.5.1",
       },
@@ -71,7 +71,7 @@
       "dependencies": {
         "axios": "^1.9.0",
         "d3": "7.9.0",
-        "pinia": "^3.0.2",
+        "pinia": "^4.0.3",
         "vue": "^3.5.13",
         "vue-router": "^4.5.1",
       },
@@ -89,7 +89,7 @@
       "dependencies": {
         "axios": "^1.9.0",
         "d3": "7.9.0",
-        "pinia": "^3.0.2",
+        "pinia": "^4.0.3",
         "vue": "^3.5.13",
         "vue-router": "^4.5.1",
       },
@@ -709,6 +709,8 @@
 
     "normalize-path": ["normalize-path@3.0.0", "", {}, "sha512-6eZs5Ls3WtCisHWp9S2GUy8dqkpGi4BVSz3GaqiE6ezub0512ESztXUwUB6C6IKbQkY2Pnb/mD4WYojCRwcwLA=="],
 
+    "nostics": ["nostics@1.2.0", "", {}, "sha512-FGqEfhQjrvo1lL8KFifdTQiNwwQHJxC1jtYE1Rc54qF/jxONUNL+kC9gS1krX8Q65PgrQ5fCqH/I4NhWBvdSqg=="],
+
     "ofetch": ["ofetch@1.5.1", "", { "dependencies": { "destr": "^2.0.5", "node-fetch-native": "^1.6.7", "ufo": "^1.6.1" } }, "sha512-2W4oUZlVaqAPAil6FUg/difl6YhqhUR7x2eZY4bQCko22UXg3hptq9KLQdqFClV+Wu85UX7hNtdGTngi/1BxcA=="],
 
     "ohash": ["ohash@2.0.11", "", {}, "sha512-RdR9FQrFwNBNXAr4GixM8YaRZRJ5PUWbKYbE5eOsrwAjJW0q2REGcf79oYPsLyskQCZG1PLN+S/K1V00joZAoQ=="],
@@ -735,7 +737,7 @@
 
     "picomatch": ["picomatch@4.0.5", "", {}, "sha512-RvwwcruNjI1ncT5xRakeyS9Lf8lcItv34KD+aif+VH9kduAyfYBipGh12274xtenIPZ119/R9BdTBa8gAwSh0A=="],
 
-    "pinia": ["pinia@3.0.4", "", { "dependencies": { "@vue/devtools-api": "^7.7.7" }, "peerDependencies": { "typescript": ">=4.5.0", "vue": "^3.5.11" }, "optionalPeers": ["typescript"] }, "sha512-l7pqLUFTI/+ESXn6k3nu30ZIzW5E2WZF/LaHJEpoq6ElcLD+wduZoB2kBN19du6K/4FDpPMazY2wJr+IndBtQw=="],
+    "pinia": ["pinia@4.0.3", "", { "dependencies": { "nostics": "^1.1.4" }, "peerDependencies": { "@vue/devtools-api": "^8.1.5", "typescript": ">=5.6.0", "vue": "^3.5.11" }, "optionalPeers": ["typescript"] }, "sha512-XMQqpvjgG7LMqVhhFUzKLT4KEbsYbfZZ0CZU9PgdFm1O2VKBmIkykL8+SfNhOaT7sR0wT6BEgKT0YNDYWgmVRA=="],
 
     "pkg-types": ["pkg-types@2.3.1", "", { "dependencies": { "confbox": "^0.2.4", "exsolve": "^1.0.8", "pathe": "^2.0.3" } }, "sha512-y+ichcgc2LrADuhLNAx8DFjVfgz91pRxfZdI3UDhxHvcVEZsenLO+7XaU5vOp0u/7V/wZ+plyuQxtrDlZJ+yeg=="],
 
