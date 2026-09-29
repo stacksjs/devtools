@@ -75,7 +75,7 @@
     "example:distributed-locks": "bun examples/distributed-locks.ts",
     "example:cron-jobs": "bun examples/cron-jobs.ts",
     "example:dead-letter-queue": "bun examples/dead-letter-queue.ts",
-    "postinstall": "bunx git-hooks"
+    "postinstall": "bunx bun-git-hooks"
   },
   "devDependencies": {
     "bumpp": "^10.1.0",
